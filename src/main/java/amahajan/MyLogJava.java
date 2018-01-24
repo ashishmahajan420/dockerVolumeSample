@@ -10,7 +10,7 @@ public class MyLogJava {
 		System.out.println("Hello!!!");
 		BufferedWriter out = null;
 		try {
-		    out = new BufferedWriter(new FileWriter("/shared/test.txt"));
+		    out = new BufferedWriter(new FileWriter("/home/ubuntu/shared/test.txt"));
 		    out.write("aString\nthis is a\nttest");  //Replace with the string 
 		                                             //you are trying to write
 		}
